@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +11,26 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.Curriculum{
+  height: 50px;
+  min-width: 100%;
+  font-weight: 900;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: White;
+  background-color: #1963a3;
+  font-family: 'Roboto', sans-serif;
+}
+.First{
+  min-height: 100vh;
+  width: 350px;
+  background-color: #a1aab1;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+  
 }
