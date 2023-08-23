@@ -1,71 +1,133 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.main{
+.main {
   display: flex;
   justify-content: center;
 }
-.Curriculum{
+.Curriculum {
   min-height: 100vh;
-  width: 30%;
+  min-width: 30%;
   background-color: #c3d5ed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.img{
-  height: 420px;
-  width: 420px;
+
+.img {
+  height: 350px;
+  width: 350px;
+
   border-radius: 50%;
   margin-top: 50px;
-  margin-left: 80px;
+  /* margin-left: 80px; */
   border: 10px #fff solid;
   /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
-.Info{
+.Info {
   margin-top: 30px;
   text-align: center;
   font-size: 32px;
   font-weight: 900;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #eee2e2;
 }
-.Data{
+.Data {
   width: 95%;
 }
-.Data p{
+.Data p {
   text-align: center;
   font-weight: 600;
 }
-.Contact{
+.Contact {
   margin-top: 80px;
   font-weight: 600;
   text-align: center;
 }
-.Contacts{
+.Contacts {
   text-align: center;
   font-weight: 600;
 }
-.images{
+.images {
   display: flex;
   justify-content: center;
 }
-.images img{
+.images img {
   padding: 5px;
 }
 
-
 /* ======== */
-.second{
+.second {
   height: 100vh;
   min-width: 70%;
+}
+.experience {
+  width: 90%;
+  margin-left: 100px;
+}
+.experience h1 {
+  font-family: "Montserrat", sans-serif;
+}
+.experience > ul li {
+  font-weight: 600;
+}
+.Skills {
+  width: 90%;
+  margin-left: 100px;
+}
+.Skills  h1{
+  font-family: "Montserrat", sans-serif;
+}
+.Skills ul li{
+  font-weight: 600;
+}
+/* ======== */
+.Education {
+  width: 90%;
+  margin-left: 100px;
+}
+.Education h1{
+  font-family: "Montserrat", sans-serif;
+}
+.Education p{
+  font-weight: 600;
+}
+.Education p span{
+  font-weight: 800;
+}
+
+/* ===== */
+.Certificattions{
+  width: 90%;
+  margin-left: 100px;
+}
+.Certificattions h1{
+  font-family: "Montserrat", sans-serif;
+}
+.Certificattions p{
+  font-weight: 600;
+}
+.Certificattions p span{
+  font-weight: 800;
+}
+/* ========== */
+.Hobbies{
+  width: 90%;
+  margin-left: 100px;
+}
+.Hobbies ul li {
+  font-weight: 600;
 }
