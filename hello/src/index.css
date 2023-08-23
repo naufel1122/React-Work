@@ -14,23 +14,14 @@ code {
 }
 
 .Curriculum{
-  height: 50px;
-  min-width: 100%;
-  font-weight: 900;
-  font-size: 32px;
-  font-weight: bold;
-  text-align: center;
-  color: White;
-  background-color: #1963a3;
-  font-family: 'Roboto', sans-serif;
-}
-.First{
   min-height: 100vh;
-  width: 350px;
-  background-color: #a1aab1;
-  text-align: center;
-  font-weight: 600;
-  font-size: 24px;
-  color: #fff;
-  
+  width: 30%;
+  background-color: #c3d5ed;
+}
+.img{
+  height: 400px;
+  width: 400px;
+  border-radius: 200px;
+  margin-top: 50px;
+  margin-left: 80px;
 }
