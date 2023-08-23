@@ -85,7 +85,7 @@ function Hi() {
               <p>Diploma: <span> Sylani Mass IT Training.</span></p>
         </div>
         <div className="Certificattions" >
-              <h1>Certificattions</h1><hr />
+              <h1>Certifications</h1><hr />
               <p>Programming Languages: <span>Java Script, ECMA Script, HTML 5, CSS, PHP, MYSQL.  </span></p>
         </div>
         <div className="Hobbies" >  
