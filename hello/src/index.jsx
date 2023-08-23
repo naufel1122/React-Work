@@ -28,13 +28,13 @@ function Hi() {
           <p>03240539139</p>
         </div>
         <div className="images">
-          <a href="#">
+          <a href="https://github.com/naufel1122">
             <img height="30px" width="30px" src={Github} alt="" />
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/muhammad-nofil-629766261/">
             <img height="30px" width="30px" src={Linkedin} alt="" />
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/muhammad_naufel/">
             <img height="30px" width="30px" src={instagram} alt="" />
           </a>
         </div>
