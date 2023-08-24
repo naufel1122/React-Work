@@ -40,6 +40,7 @@ function Hi() {
         </div>
       </div>
       <div className="second">
+        <div className="second-main" >
         <div className="experience">
           <h1>Experience</h1>
           <hr />
@@ -96,6 +97,7 @@ function Hi() {
               <li>Photography</li>
               <li>Designing</li>
               </ul>
+        </div>
         </div>
       </div>
     </div>
